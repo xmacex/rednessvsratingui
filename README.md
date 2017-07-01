@@ -1,7 +1,7 @@
 # rednessvsratingui
 Redness vs. rating comparing user interface of three app-mediated-fertility issues
 
-A really quick and dirty, but useful user interface for comparing three sets of Android app icons, built for our software studies sub-project at [Digital Methods Initiative's 2017 summer school](https://wiki.digitalmethods.net/Dmi/SummerSchool2017). We were looking at *app-mediated-fertility* and related issues. The data is Google Play recommender engine results for designed queries (Rogers, 2017) "fertility", "ovulation" and "period calendar", using *search as research* methodology (ibid.)
+A really quick and dirty, but useful user interface for comparing three sets of Android app icons, built for our sub-project at [Digital Methods Initiative's 2017 summer school](https://wiki.digitalmethods.net/Dmi/SummerSchool2017), as part of the project 6 *Method Maps: Visualizing Automation*. Our subproject was looking at *app-mediated-fertility* and related issues, and contributing to the parent project about automation. The data is Google Play recommender engine results for designed queries (Rogers, 2017) "fertility", "ovulation" and "period calendar", using *search as research* methodology (ibid.)
 
 What this does, is just three opacity sliders for three overlaid, transparent PNG images of plots produced with [ImagePlot](http://lab.softwarestudies.com/p/imageplot.html). This should be re-built to actually produce the plots from data, with D3 or somesuch. Uses [bootstrap-slider](https://github.com/seiyria/bootstrap-slider).
 

@@ -1,0 +1,17 @@
+body {
+	background-color: white;
+}
+div#content {
+	height: 500px;
+}
+img {
+    height: 500px;
+	position: absolute;
+}
+
+.slider-selection {
+	background: grey;
+}
+.slider-handle {
+	background: black;
+}

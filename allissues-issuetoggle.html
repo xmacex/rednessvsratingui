@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.0/css/bootstrap-slider.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.0/bootstrap-slider.js"></script>
+
+	<link rel="stylesheet" href="allissues-issuetoggle.css" />
+  </head>
+  <body>
+	<div id="control">
+	  <p>
+		<b>fertility</b> <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="1" data-slider-step="0.01" data-slider-value="0.5" data-slider-id="fertilityC" id="fertility" data-slider-tooltip="hide" data-slider-handle="triangle" />
+	  </p>
+	  <p>
+		<b>ovulation</b> <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="1" data-slider-step="0.01" data-slider-value="0.5" data-slider-id="ovulationC" id="ovulation" data-slider-tooltip="hide" data-slider-handle="triangle" />
+	  </p>
+	  <p>
+		<b>period calendar</b><input type="text" class="span2" value="" data-slider-min="0" data-slider-max="1" data-slider-step="0.01" data-slider-value="0.5" data-slider-id="period_calendarC" id="period_calendar" data-slider-tooltip="hide" data-slider-handle="triangle" />
+	  </p>
+	</div>
+	<div id="content">
+	  <img id="fertility" src="fertility-median normalized redness vs rating.png" />
+	  <img id="ovulation" src="ovulation-median normalized redness vs rating.png" />
+	  <img id="period_calendar" src="period calendar-median normalized redness vs rating.png" />
+	</div>
+	<div>x: redness from median luminosity (-255...255)</br>
+	  y: rating (0...5)</div>
+	<script src="allissues-issuetoggle.js"></script>
+  </body>
+</html>
